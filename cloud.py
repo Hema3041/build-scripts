@@ -4,7 +4,7 @@ import argparse
 import os
 
 # ====== Hardcoded Configuration ======
-local_file = "D:/build-scripts/HE3/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE/application_is/Debug/bin/Flash and OTA files/OTA_final_he3_renesas.bin"
+local_file = "HE3/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE/application_is/Debug/bin/Flash and OTA files/OTA_final_he3_renesas.bin"
 bucket_name = "hoags-mp-release"
 s3_folder = "Livpure/Automation_build"  # S3 folder
 region_name = "ap-south-1"
