@@ -5,13 +5,13 @@ import xml.etree.ElementTree as ET
 # ------------------------------ CONFIGURATION ------------------------------
 
 # Base and input paths
-base_path = r"/d/build-scripts/HE3/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE/application_is/Debug/bin"
-external_path = r"/d/build-scripts/HE3/sdk-ameba-v7.1d/Hoags"
+base_path = r"HE3/sdk-ameba-v7.1d/project/realtek_amebaz2_v0_example/GCC-RELEASE/application_is/Debug/bin"
+external_path = r"HE3/sdk-ameba-v7.1d/Hoags"
 
 flash_is_path = os.path.join(base_path, 'flash_is.bin')
 firmware_is_path = os.path.join(base_path, 'firmware_is.bin')
 
-# Renesas and XML from external path
+# Renesas and XML from external path    
 reneses_path = os.path.join(external_path, 'reneses.bin')
 metadata_xml = os.path.join(external_path, 'metadata.xml')
 
